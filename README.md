@@ -52,7 +52,7 @@ Explain how someone can explore the dashboard:
 
 ## Project Files
 - [Power BI dashboard file](docs/Retail_Supermarket_PBI.pbix) 
-- [Static PDF version for quick preview](docs/Supermarket_Dashboard_PDF.pdf) –   
+- [Static PDF version for quick preview](docs/Supermarket_Dashboard_PDF.pdf) 
 
 
 
