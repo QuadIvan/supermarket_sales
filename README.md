@@ -1,7 +1,7 @@
-# Retail Supermarket Dashboard
+# Supermarket Profit Dashboard
 
 ## Project Overview
-Briefly describe the purpose of the project and the dataset used. Mention that the goal was to create a simple but visually attractive Power BI dashboard analyzing supermarket sales and profit across regions, customer types, and product categories.
+The objective of this project is to analyze the profits of a U.S. supermarket company. Using a fictitious dataset, the goal is to build a dashboard that is simple, yet functional and visually appealing.
 
 ## Data Source
 - [Kaggle - Superstore Dataset](https://www.kaggle.com/datasets/roopacalistus/superstore)  
@@ -17,30 +17,42 @@ Explain the main steps taken in Power Query:
 ## Data Model
 - Mention that the dataset consists of a single fact table.  
 - No date dimension was created as the dataset does not include a date column.  
-- Slicers are based directly on existing fields (Region, City, Customer Type, Category, Sub-Category).
+- Visuals are based directly on existing fields (Region, City, Customer Type, Category, Sub-Category).
 
 ## Dashboard Design
-- Layout and KPI placement.  
-- Visuals included (Total Sales, Profit by Region, Profit by Category, Top Sub-Categories, Ship Mode analysis, etc.).  
-- Color palette and formatting choices.  
-- Slicers for interactivity.  
+The dashboard was designed in Power BI with a focus on simplicity and clarity:
+- Four KPI cards at the top displaying: Average Discount, Total Profit, Total Sales, and Average Quantity Sold.  
+- A column chart showing the Top 5 Sub-Categories by Profit.  
+- A bar chart displaying Total Profit by Category.  
+- A pie chart showing Total Profit by Ship Mode.  
+- A decomposition tree breaking down Total Profit by Customer Type, Category, and Sub-Category.  
+- A map of the United States highlighting states, designed to work with the Region slicer for filtering and emphasis.  
+- A single slicer for Region to drive interactivity.  
+  
 
 ## Key Insights
-Summarize 3–5 key findings from the dashboard. For example:
-- Technology category drives the highest profit.  
+- The technology category drives the highest profit.  
 - Furniture has the lowest profitability.  
 - Consumers represent the most profitable customer type.  
 - Standard Class shipping generates the majority of profit.  
+- The Furniture - Tables sub-category incurs losses of approximately 17K.  
+- Copiers are the most profitable sub-category across all three customer types.  
+- The West region generates the highest profit, with approximately 108K.  
+ 
+## Recommendations
+- Reevaluate the Furniture - Tables sub-category, which is generating losses of approximately 17K. Consider reducing discounts, renegotiating supplier contracts, or shifting focus to more profitable furniture items.  
+- Invest in promoting and expanding the Copiers sub-category, as it delivers the highest profit across all customer types. Targeted marketing campaigns or bundling strategies could further increase sales in this area.  
+- Strengthen operations and marketing efforts in the West region, which generates the highest profit (around 108K). Insights from this region could be applied to underperforming regions to replicate success.  
+- Monitor product-level profitability across categories to identify and phase out consistently unprofitable items, while reinvesting in high-margin products.  
 
 ## How to Use
 Explain how someone can explore the dashboard:
 - Open the `.pbix` file in Power BI Desktop.  
-- Use the slicers (Customer Type, Category, Sub-Category) to filter results.  
+- Use the visuals (Slicer, charts, map) to filter results.  
 
 ## Project Files
 - `Retail Supermarket PBI.pbix` – Power BI dashboard file.  
 - `Retail Supermarket PBI.pdf` – Exported static version for quick preview.  
 - `README.md` – Project documentation.  
 
-## Acknowledgments
-Credit the dataset source and mention the license.
+
