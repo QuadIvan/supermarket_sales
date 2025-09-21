@@ -51,8 +51,8 @@ Explain how someone can explore the dashboard:
 - Use the visuals (Slicer, charts, map) to filter results.  
 
 ## Project Files
-- (docs/Retail_SupermarketPBI.pbix) – Power BI dashboard file.  
-- `Retail Supermarket PBI.pdf` – Exported static version for quick preview.  
-- `README.md` – Project documentation.  
+- [Power BI dashboard file](docs/Retail_Supermarket_PBI.pbix) 
+- [Static PDF version for quick preview](docs/Supermarket_Dashboard_PDF.pdf) –   
+
 
 
